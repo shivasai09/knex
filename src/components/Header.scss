@@ -1,0 +1,261 @@
+.header{
+    background: #FFFFFF;
+    box-shadow: 0 1px 20px 0 rgba(135,135,135,0.22);
+    width: 1280px;
+    height: 53px;
+    position: relative;
+}
+
+.menu img{
+    width: 25px;
+    height: 17px;
+    position: absolute;
+    top:19px;
+    left: 23px;
+    cursor: pointer;
+}
+
+.logo{
+    position: absolute;
+    font-size: 16px;
+    color: #464646;
+    letter-spacing: -0.09px;
+    width: 95px;
+    height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    bottom: 12px;
+    left: 62px;
+    font-weight: normal;
+}
+
+.heading img{
+    width:9px;
+    height: 13px;
+}
+
+.heading {
+    .cast{
+        font-size: 18px;
+        color: #000000;
+        letter-spacing: 5px;
+        line-height: 24px;
+        font-weight: bold;
+        color: blue;
+        padding-left: 4px;
+    }
+}
+
+.heading{
+    position: absolute;
+    left: 572px;
+    top:16px;
+}
+
+.heading{
+    .for{
+        font-size: 18px;
+        color: #5E5E5E;
+        letter-spacing: 5px;
+    }
+}
+
+.notification img {
+    width: 16.3px;
+    height: 19.5px;
+    position: absolute;
+    left:1068px;
+    top:20.2px;
+}
+
+.settings img {
+    position: absolute;
+    top:20.2px;
+    left: 1107px;
+    height: 18px;
+    width: 18px;
+}
+
+.user{
+    position: absolute;
+    top:20px;
+    left: 1142px;
+}
+
+.username {
+    font-size: 14px;
+    position: absolute;
+    top:20px;
+    color: #5E5E5E;
+    letter-spacing: 0.79px;
+    left:1165px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.header2{
+    width: 1280px;
+    height: 56px;
+    background: #427FC6;
+    .save{
+        position: absolute;
+        top:73px;
+        left: 25px;
+        width: 21px;
+        height: 21px;
+        cursor: pointer;
+    }
+    .drivescript {
+        position: absolute;
+        top:73px;
+        left:68.2px;
+        cursor: pointer;
+        height: 21px;
+        width: 21px;
+
+    }
+    .downarrow{
+        cursor: pointer;
+    }
+    .uparrow{
+        cursor: pointer;
+    }
+    .downarrow i {
+        color: #FFFFFF;
+        position: absolute;
+        top:77px;
+        left:110px;
+    }
+    .uparrow i{
+        color: #FFFFFF;
+        position: absolute;
+        top:77px;
+        left:147px;
+        transform: rotate(180deg);
+    }
+    .linescontainer{
+        width: 10px;
+        height: 15px;
+        position: absolute;
+        top:78px;
+        left:120.5px;
+        .line1{
+            background: #FFFFFF;
+            width: inherit;
+            height: 2px;
+            margin-bottom: 2px;
+        }
+        .line2{
+            background: #FFFFFF;
+            width: 8px;
+            height: 2px;
+            margin-bottom: 2px;
+        }
+        .line3{
+            background: #FFFFFF;
+            width: 6px;
+            height: 2px;
+            margin-bottom: 2px;
+        }
+        .line4{
+            background: #FFFFFF;
+            width: 4px;
+            height: 2px;
+            margin-bottom: 1px;
+        }
+    }
+    .linescontainer2 {
+        @extend .linescontainer;
+        left: 156px;
+    }
+    .inputfield{
+        position: absolute;
+        top:72px;
+        left:209px;
+        .input{
+            background: #36679E;
+            border-radius: 100px;
+            width: 436px;
+            height: 25px;
+            padding-left: 15px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            padding-right: 72px;
+            box-sizing: border-box;
+            border: 1px solid #36679E;
+            font-size: 12px;
+            color: #FFFFFF;
+            letter-spacing: -0.07px;
+        } 
+    }
+    .seprate1{
+        position: absolute;
+        width: 2px;
+        height: 23px;
+        top:73px;
+        left:188px;
+        opacity: 0.51;
+        border: .2px solid #FFFFFF;
+        background: #FFFFFF;
+    }
+    .seprate2{
+        @extend .seprate1;
+        top:73px;
+        left: 1074px;
+        opacity: 0.2;
+    }
+    .today {
+        height: 20px;
+        width: 18px;
+        position: absolute;
+        cursor: pointer;
+        top: 73px;
+        left:1227px;
+    }
+    .blank{
+        height: 19px;
+        width: 19px;
+        position: absolute;
+        top:74px;
+        left:1193px;
+        cursor: pointer;
+        border: 1px solid #FFFFFF;
+    }
+    .fill{
+        height: 19px;
+        width: 19px;
+        position: absolute;
+        top:74px;
+        left:1159px;
+        background: #FFFFFF;
+        cursor: pointer;
+        border: 1px solid #FFFFFF;
+    }
+    .updown{
+        height: 19px;
+        width: 17px;
+        position: absolute;
+        top:74px;
+        left:1126px;
+       cursor: pointer;
+        border: 1px solid #FFFFFF;
+        .up{
+            background:  #FFFFFF;
+            height: 10px;
+            width: inherit;
+        }
+    }
+    .leftright{
+        height: 19px;
+        width: 19px;
+        position: absolute;
+        top:74px;
+        left:1090px;
+       cursor: pointer;
+       border: 1px solid #FFFFFF;
+       .left{
+           height: inherit;
+           background: #FFFFFF;
+           width:9px;
+       }
+    }
+}
