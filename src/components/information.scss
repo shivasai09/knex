@@ -1,0 +1,83 @@
+.information{
+    position: absolute;
+    top:72px;
+    left:9px;
+    height: 523.8px;
+    width: 604.5px;
+    background: #FFFFFF;
+    box-shadow: 0 0 8px 0 rgba(189,189,189,0.37);
+    border-radius: 2px;
+  
+    .information_header{
+        display: flex;
+        border-bottom: 0.5px solid #BCBCBC;
+        padding-bottom: 11px;
+        .forecast{
+            display: flex;
+            .text{
+                opacity: 0.54;
+                font-size: 10px;
+                color: #000000;
+                letter-spacing: 0.31px;
+                padding-left: 25px;
+                padding-top: 18px;
+              
+            }
+            .expandmore svg{
+                width: 8px;
+            }
+            .expandmore{
+                padding-top: 11px;
+                padding-left: 8px;
+            }
+        }
+        .coloumns{
+            padding-top: 12px;
+            padding-left: 15px;
+            
+            .numbers{
+                opacity: 0.9;
+                font-size: 10px;
+                color: #000000;
+                letter-spacing: 0.31px;
+                font-weight: bold;
+                padding-right: 16px;
+            }
+        }
+    }
+    .actualdata{
+        padding-top: 11px;
+        display: flex;
+        .options{
+            width: 111px;
+            padding-left: 16px;
+            .selected{
+                background: #427FC5;
+                border-radius: 2px;
+                font-size: 10px;
+                color: #FFFFFF;
+                letter-spacing: 0.31px;
+                font-weight: bold;
+                padding-top: 5.2px;
+                padding-bottom: 3.8px;
+                padding-left: 9px;
+                cursor: pointer;
+            }
+        }
+        .optionsdata{
+            .row{
+                padding-left: 43px;
+                padding-bottom: 5px;
+                .rowItem{
+                    opacity: 0.9;
+                    font-size: 10px;
+                    color: #000000;
+                    letter-spacing: 0.31px; 
+                    font-weight: bold;
+                    display: block;
+                    width: 33px;
+                }
+            }
+        }
+    }
+}

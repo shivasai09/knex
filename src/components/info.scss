@@ -4,4 +4,54 @@
     background: #ffffff;
     width: 624px;
     height: 603px;
+    position: relative;
+    .textcontainer{
+        position: absolute;
+        width: 165px;
+        height: 17px;
+        left: 13px;
+        top:11.5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .more_menu{
+        position: absolute;
+        left: 606px;
+        bottom:576px;
+    }
+    .btn-group{
+        width: 64px;
+        left:10px;
+        top:40.5px;
+        box-sizing: border-box;
+        .btn-primary{    
+            width: 64px;
+            padding: 0px;
+            border-radius: 100px;
+            background: #427FC5;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            font-weight: bold;
+            font-size: 10px;
+            color: #FFFFFF;
+            letter-spacing: -0.06px;
+        }
+    }
+    .header_numbers{
+        position: absolute;
+        top:40px;
+        left: 148px;
+        .numbers{
+            display: inline;
+            padding-right: 26px;
+            opacity: 0.9;
+            font-weight: bold;
+            font-size: 10px;
+            color: #000000;
+            letter-spacing: 0.31px;
+        }
+    }
 }
+@import './information.scss'
