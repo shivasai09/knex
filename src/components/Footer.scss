@@ -1,4 +1,5 @@
 .footer{
+    position: relative;
     height: 50px;
     background: #FFFFFF;
     box-shadow: 0 1px 20px 0 rgba(135,135,135,0.22);
@@ -33,5 +34,43 @@
         @extend .tag1;
         float: right;
         padding-top: 21px;
+    }
+    .shadow{
+        position: absolute;
+    transform: rotate(315deg);
+    height: 65px;
+    width: 1px;
+    top: 13px;
+    left: 122px;
+    color: white;
+    box-shadow: 20px -2px 9px 0 rgba(53, 53, 53, 0.22) !important;
+    }
+    .shadow2{
+        position: absolute;
+        transform: rotate(-315deg);
+        height: 65px;
+        width: 1px;
+        top: -22px;
+        right: 151px;
+        color: white;
+        box-shadow: 20px -2px 9px 0 rgba(53, 53, 53, 0.22) !important;
+    }
+    .buttoncontainer{
+        position: absolute;
+        left: 596px;
+        top: 9px;
+        .btn-primary{
+            border-top-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+        }
+        .btn-outline-primary:hover {
+            color: #007bff;
+            background-color: #fff;
+            border-color: #007bff;
+        }
+        .btn-outline-primary{
+            border-top-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
     }
 }

@@ -16,6 +16,14 @@ class Footer extends React.Component {
                 <div className="tag2">
                    Division/Department/<span className="div">Location</span>
                 </div>
+                <div className="shadow"/>
+                <div className="shadow2"/>
+                <div className="shadow"/>
+                <div className="shadow2"/>
+                <div className="buttoncontainer">
+                <button type="button" className="btn btn-outline-primary btn-sm">C</button>
+                <button type="button" className="btn btn-primary btn-sm">G</button>
+                </div>
             </div>
         );
     }

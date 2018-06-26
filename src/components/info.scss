@@ -39,6 +39,9 @@
             color: #FFFFFF;
             letter-spacing: -0.06px;
         }
+        .dropdown-item{
+            cursor: pointer;
+        }
     }
     .header_numbers{
         position: absolute;
@@ -53,6 +56,14 @@
             color: #000000;
             letter-spacing: 0.31px;
         }
+    }
+    .underline{
+        position: absolute;
+    width: 19px;
+    height: 4px;
+    background: #427FC5;
+    top: 68px;
+    left: 142px;
     }
 }
 @import './information.scss'
