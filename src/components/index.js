@@ -1,5 +1,6 @@
 import React from 'react';
 import {AccountCircle, CheckCircle} from './assets';
+import Footer from './Footer';
 import Header from './Header'
 import InfoAndChart from './InfoAndChart';
 class Knex extends React.Component {
@@ -9,6 +10,7 @@ class Knex extends React.Component {
             <div style={{width:"1280px"}}>
                 <Header/>
                 <InfoAndChart/>
+                <Footer/>
             </div>
         );
     }

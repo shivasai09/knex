@@ -1,0 +1,37 @@
+.footer{
+    height: 50px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 20px 0 rgba(135,135,135,0.22);
+    .product{
+        font-size: 16px;
+        color: #5E5E5E;
+        letter-spacing: 0.8px;
+        font-weight: bold;
+        background: #FFFFFF;
+        width: 159px;
+        padding-left: 33px;
+        padding-top: 16px;
+        display: inline-block;
+    }
+    .tag1{
+        display: inline-block;
+        font-size: 12px;
+        color: #5E5E5E;
+        letter-spacing: 0.6px;
+        .div{
+            font-size: 12px;
+            color: #000000;
+            letter-spacing: 0.6px;
+            line-height: 17px;
+        }
+    }
+    .customer{
+        @extend .product;
+        float: right;
+    }
+    .tag2{
+        @extend .tag1;
+        float: right;
+        padding-top: 21px;
+    }
+}
